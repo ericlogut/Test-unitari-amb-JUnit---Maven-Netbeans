@@ -19,9 +19,9 @@ public class CalculadoraTest {
     @Test
     public void testSumar() {
         int num1 = 2;
-        int num2 = 3;
+        int num2 = 4;
         int resultado = Calculadora.sumar(num1, num2);
-        assertEquals(5, resultado);
+        assertEquals(6, resultado);
         System.out.println("El resultat de "+num1+" + "+num2+": " + resultado);
     }
 
